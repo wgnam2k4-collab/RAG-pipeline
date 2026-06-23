@@ -1,0 +1,18 @@
+{
+  "step": "chunking",
+  "cfg": {
+    "strategy": "hierarchical",
+    "chunk_size": 500,
+    "chunk_overlap": 100,
+    "parent_chunk_size": 2000,
+    "do_dedup": false
+  },
+  "stats": {
+    "n_chunks": 2504,
+    "avg_chars": 337,
+    "total_chars": 843933
+  },
+  "saved_at": "2026-06-23T22:39:27",
+  "parent_key": "8ff78d38928e6f9f5114c5b90a34eed364a011321ba44522a968ac7f0915c6ea",
+  "size_mb": 2.9981
+}

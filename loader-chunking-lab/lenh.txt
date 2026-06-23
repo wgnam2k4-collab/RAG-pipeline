@@ -1,0 +1,31 @@
+# ─────────────────────────────────────────────────
+# Loader & Chunking Lab — Lệnh thường dùng
+# ─────────────────────────────────────────────────
+
+# 1. Kích hoạt venv (Windows)
+.venv\Scripts\activate
+
+# 2. Kích hoạt venv (Linux/macOS)
+source .venv/bin/activate
+
+# 3. Chạy app
+streamlit run app.py
+
+# 4. Cài thư viện cơ bản
+python -m pip install -r requirements.txt
+
+# 5. Cài PyTorch với CUDA 12.8 (cho Marker loader với GPU)
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
+
+# 6. Cài loader nâng cao
+pip install docling
+pip install marker-pdf
+pip install "unstructured[pdf]" unstructured-inference
+pip install opendataloader-pdf    # Cần Java 11+
+
+# 7. Cài embedding cho Semantic Chunking
+pip install sentence-transformers langchain-huggingface
+
+# 8. Copy env file
+copy .env.example .env
+# rồi điền API key vào .env

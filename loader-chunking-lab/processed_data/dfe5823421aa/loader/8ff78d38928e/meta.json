@@ -1,0 +1,22 @@
+{
+  "step": "loader",
+  "cfg": {
+    "pdf_strategy": "marker",
+    "extract_tables": true,
+    "language": "both",
+    "marker_device": "cuda",
+    "describe_images": false,
+    "vision_model": "gpt-4o-mini",
+    "vision_provider": "openai",
+    "odl_hybrid": null,
+    "odl_struct_tree": false
+  },
+  "stats": {
+    "n_docs": 1,
+    "n_chars": 427803,
+    "source_path": "C:\\Users\\Legion\\AppData\\Local\\Temp\\tmp5mtq5tl6\\Thuc-hanh-LS-SPK.pdf"
+  },
+  "saved_at": "2026-06-23T22:22:43",
+  "parent_key": "dfe5823421aa726f9bd28bdce3089e23a4386076c759e608bdb1299e46a1ca2d",
+  "size_mb": 0.5004
+}

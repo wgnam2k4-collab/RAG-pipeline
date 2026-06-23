@@ -1,0 +1,17 @@
+{
+  "step": "embedding",
+  "cfg": {
+    "provider": "huggingface",
+    "model_name": "BAAI/bge-m3",
+    "device": "cuda"
+  },
+  "stats": {
+    "n_vectors": 2504,
+    "dims": 1024,
+    "has_sparse": false,
+    "truncated": false
+  },
+  "saved_at": "2026-06-23T22:39:50",
+  "parent_key": "eb1c63095d79d104a3d077951bb0dedda66a17886d175e109fb35162078e59f0",
+  "size_mb": 5.5417
+}
